@@ -16,12 +16,12 @@ export default function SearchBar() {
 
   return (
     <>
-      {/* Search Button */}
+      {/* Search Button - Positioned below banner */}
       <motion.button
         onClick={() => setIsOpen(true)}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="fixed top-72 right-6 z-40 bg-white text-primary-600 p-4 rounded-full shadow-2xl hover:shadow-primary-300/50 border-2 border-primary-200 hover:border-primary-400 transition-all group"
+        className="fixed top-[200px] right-6 z-40 bg-white text-primary-600 p-4 rounded-full shadow-2xl hover:shadow-primary-300/50 border-2 border-primary-200 hover:border-primary-400 transition-all group"
       >
         <svg className="w-6 h-6 group-hover:rotate-90 transition-transform duration-300" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" viewBox="0 0 24 24" stroke="currentColor">
           <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

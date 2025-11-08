@@ -566,7 +566,7 @@ export default function MegaMenuPremium() {
       </nav>
 
       {/* Spacer to prevent content from going under fixed navbar */}
-      <div className="h-30" />
+      <div className="h-[120px]" />
     </>
   );
 }

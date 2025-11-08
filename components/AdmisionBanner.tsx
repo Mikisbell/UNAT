@@ -42,7 +42,7 @@ export default function AdmisionBanner() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         exit={{ y: -100 }}
-        className="fixed top-30 left-0 right-0 z-50 bg-gradient-to-r from-secondary-500 via-secondary-600 to-secondary-500 text-primary-900 shadow-2xl"
+        className="fixed top-[120px] left-0 right-0 z-30 bg-gradient-to-r from-secondary-500 via-secondary-600 to-secondary-500 text-primary-900 shadow-2xl"
       >
         <div className="max-w-7xl mx-auto px-4 py-3">
           <div className="flex flex-col md:flex-row items-center justify-between gap-3">
