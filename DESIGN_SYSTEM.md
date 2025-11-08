@@ -6,27 +6,27 @@ Esta paleta ha sido extraída del sitio oficial de admisión de UNAT (https://ad
 
 ---
 
-## 🔵 **AZUL MARINO - Color Principal**
+## 🍷 **GUINDO/VINO - Color Principal**
 
-El azul marino es el color institucional principal de UNAT, representa confianza, profesionalismo y excelencia académica.
+El guindo/vino/borgoña es el color institucional principal de UNAT, representa elegancia, tradición académica y la identidad universitaria de Tayacaja.
 
 ### Uso Principal
-- **primary-600**: `#004E8C` - Color principal para botones, encabezados, elementos destacados
-- **primary-700**: `#003F7F` - Hover states, énfasis adicional
-- **primary-800**: `#003366` - Fondos oscuros, footers
+- **primary-600**: `#800020` - Color GUINDO principal para botones, encabezados, elementos destacados
+- **primary-700**: `#660019` - Hover states, énfasis adicional
+- **primary-800**: `#5D0016` - Fondos oscuros, footers
 
 ### Escala Completa
 ```
-primary-50:  #E6F0FF  (Fondos muy claros)
-primary-100: #CCE0FF  (Fondos claros, badges)
-primary-200: #99C2FF  (Bordes suaves)
-primary-300: #66A3FF  (Estados disabled)
-primary-400: #3385FF  (Hover suave)
-primary-500: #0066CC  (Base intermedia)
-primary-600: #004E8C  ⭐ PRINCIPAL
-primary-700: #003F7F  (Hover oscuro)
-primary-800: #003366  (Muy oscuro)
-primary-900: #002952  (Ultra oscuro)
+primary-50:  #FFF0F3  (Rosa muy claro)
+primary-100: #FFE1E6  (Rosa claro)
+primary-200: #FFC3CE  (Rosa medio)
+primary-300: #FF9FB5  (Rosa)
+primary-400: #E6667F  (Rojo rosado)
+primary-500: #B33355  (Vino medio)
+primary-600: #800020  ⭐ GUINDO OFICIAL UNAT
+primary-700: #660019  (Guindo oscuro)
+primary-800: #5D0016  (Muy oscuro)
+primary-900: #4D0012  (Ultra oscuro)
 ```
 
 ### Ejemplos de Uso
@@ -43,27 +43,27 @@ className="bg-primary-100 text-primary-700"
 
 ---
 
-## 🟢 **VERDE UNAT - Color Secundario**
+## 🟡 **DORADO - Color Secundario**
 
-El verde representa la región de Tayacaja, su naturaleza y el crecimiento institucional.
+El dorado representa la excelencia académica, los logros universitarios y la tradición educativa de prestigio.
 
 ### Uso Secundario
-- **secondary-500**: `#00A651` - Botones secundarios, iconos de éxito
-- **secondary-600**: `#008844` - Hover states
-- **secondary-700**: `#006A37` - Énfasis adicional
+- **secondary-500**: `#D4AF37` - Botones secundarios, badges de honor, certificaciones
+- **secondary-600**: `#B8962E` - Hover states
+- **secondary-700**: `#9C7D25` - Énfasis adicional
 
 ### Escala Completa
 ```
-secondary-50:  #E6F9F0  (Fondos muy claros)
-secondary-100: #CCF3E1  (Fondos claros)
-secondary-200: #99E7C3  (Bordes)
-secondary-300: #66DBA5  (Estados intermedios)
-secondary-400: #33CF87  (Hover suave)
-secondary-500: #00A651  ⭐ PRINCIPAL VERDE
-secondary-600: #008844  (Hover)
-secondary-700: #006A37  (Oscuro)
-secondary-800: #004C2A  (Muy oscuro)
-secondary-900: #002E1D  (Ultra oscuro)
+secondary-50:  #FFFBEB  (Dorado muy claro)
+secondary-100: #FFF7D6  (Dorado claro)
+secondary-200: #FFEEAD  (Dorado medio claro)
+secondary-300: #FFE584  (Dorado medio)
+secondary-400: #FFDC5B  (Dorado brillante)
+secondary-500: #D4AF37  ⭐ DORADO OFICIAL
+secondary-600: #B8962E  (Dorado oscuro)
+secondary-700: #9C7D25  (Dorado muy oscuro)
+secondary-800: #80641C  (Bronce oscuro)
+secondary-900: #644B13  (Bronce muy oscuro)
 ```
 
 ### Ejemplos de Uso
@@ -80,27 +80,27 @@ className="bg-secondary-50 border-secondary-500 text-secondary-900"
 
 ---
 
-## 🟡 **DORADO - Color de Acento**
+## 🤍 **CREMA/BEIGE - Color de Acento**
 
-El dorado representa excelencia, logros y destacados especiales.
+El crema/beige representa elegancia, sofisticación y es perfecto para fondos sutiles y diseños limpios.
 
 ### Uso de Acento
-- **accent-500**: `#FDB913` - Badges especiales, premios, certificaciones
-- **accent-600**: `#E6A000` - Hover states
-- **accent-700**: `#CC8E00` - Énfasis
+- **accent-500**: `#F5F5DC` - Fondos elegantes, secciones destacadas, cards premium
+- **accent-600**: `#E8E8C8` - Variaciones de fondo
+- **accent-700**: `#DBDBB4` - Bordes sutiles
 
 ### Escala Completa
 ```
-accent-50:  #FFF9E6  (Fondos muy claros)
-accent-100: #FFF3CC  (Fondos claros)
-accent-200: #FFE799  (Bordes suaves)
-accent-300: #FFDB66  (Estados intermedios)
-accent-400: #FFCF33  (Hover suave)
-accent-500: #FDB913  ⭐ PRINCIPAL DORADO
-accent-600: #E6A000  (Hover)
-accent-700: #CC8E00  (Oscuro)
-accent-800: #B37C00  (Muy oscuro)
-accent-900: #996A00  (Ultra oscuro)
+accent-50:  #FEFDFB  (Casi blanco)
+accent-100: #FDFCF7  (Blanco crema)
+accent-200: #FBF9EF  (Crema muy claro)
+accent-300: #F9F6E7  (Crema claro)
+accent-400: #F7F3DF  (Crema medio)
+accent-500: #F5F5DC  ⭐ CREMA OFICIAL
+accent-600: #E8E8C8  (Beige claro)
+accent-700: #DBDBB4  (Beige medio)
+accent-800: #CECEA0  (Beige oscuro)
+accent-900: #C1C18C  (Beige muy oscuro)
 ```
 
 ### Ejemplos de Uso
@@ -208,12 +208,11 @@ Si necesitas usar estos colores en CSS puro:
 
 ```css
 :root {
-  --unat-blue: #004E8C;
-  --unat-blue-dark: #003366;
-  --unat-blue-light: #0066CC;
-  --unat-green: #00A651;
-  --unat-green-dark: #008844;
-  --unat-gold: #FDB913;
+  --unat-burgundy: #800020;
+  --unat-burgundy-dark: #5D0016;
+  --unat-burgundy-light: #A0002A;
+  --unat-gold: #D4AF37;
+  --unat-cream: #F5F5DC;
 }
 ```
 
@@ -232,46 +231,46 @@ Todos los colores han sido probados para cumplir con:
 
 ## 🎨 **Visualización de Paleta**
 
-### Azul Principal (primary)
+### Guindo Principal (primary)
 ```
-██████ #E6F0FF  primary-50
-██████ #CCE0FF  primary-100
-██████ #99C2FF  primary-200
-██████ #66A3FF  primary-300
-██████ #3385FF  primary-400
-██████ #0066CC  primary-500
-██████ #004E8C  primary-600 ⭐ PRINCIPAL
-██████ #003F7F  primary-700
-██████ #003366  primary-800
-██████ #002952  primary-900
-```
-
-### Verde Secundario (secondary)
-```
-██████ #E6F9F0  secondary-50
-██████ #CCF3E1  secondary-100
-██████ #99E7C3  secondary-200
-██████ #66DBA5  secondary-300
-██████ #33CF87  secondary-400
-██████ #00A651  secondary-500 ⭐ PRINCIPAL
-██████ #008844  secondary-600
-██████ #006A37  secondary-700
-██████ #004C2A  secondary-800
-██████ #002E1D  secondary-900
+██████ #FFF0F3  primary-50
+██████ #FFE1E6  primary-100
+██████ #FFC3CE  primary-200
+██████ #FF9FB5  primary-300
+██████ #E6667F  primary-400
+██████ #B33355  primary-500
+██████ #800020  primary-600 ⭐ GUINDO OFICIAL
+██████ #660019  primary-700
+██████ #5D0016  primary-800
+██████ #4D0012  primary-900
 ```
 
-### Dorado Acento (accent)
+### Dorado Secundario (secondary)
 ```
-██████ #FFF9E6  accent-50
-██████ #FFF3CC  accent-100
-██████ #FFE799  accent-200
-██████ #FFDB66  accent-300
-██████ #FFCF33  accent-400
-██████ #FDB913  accent-500 ⭐ PRINCIPAL
-██████ #E6A000  accent-600
-██████ #CC8E00  accent-700
-██████ #B37C00  accent-800
-██████ #996A00  accent-900
+██████ #FFFBEB  secondary-50
+██████ #FFF7D6  secondary-100
+██████ #FFEEAD  secondary-200
+██████ #FFE584  secondary-300
+██████ #FFDC5B  secondary-400
+██████ #D4AF37  secondary-500 ⭐ DORADO OFICIAL
+██████ #B8962E  secondary-600
+██████ #9C7D25  secondary-700
+██████ #80641C  secondary-800
+██████ #644B13  secondary-900
+```
+
+### Crema Acento (accent)
+```
+██████ #FEFDFB  accent-50
+██████ #FDFCF7  accent-100
+██████ #FBF9EF  accent-200
+██████ #F9F6E7  accent-300
+██████ #F7F3DF  accent-400
+██████ #F5F5DC  accent-500 ⭐ CREMA OFICIAL
+██████ #E8E8C8  accent-600
+██████ #DBDBB4  accent-700
+██████ #CECEA0  accent-800
+██████ #C1C18C  accent-900
 ```
 
 ---

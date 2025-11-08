@@ -9,54 +9,53 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Colores oficiales UNAT (extraídos de admision.unat.edu.pe)
+        // Colores oficiales UNAT - GUINDO/VINO (de admision.unat.edu.pe)
         'unat': {
-          'blue': '#004E8C',      // Azul marino institucional principal
-          'blue-dark': '#003366', // Azul marino oscuro
-          'blue-light': '#0066CC', // Azul claro para hover
-          'green': '#00A651',     // Verde UNAT oficial
-          'green-dark': '#008844', // Verde oscuro
-          'gold': '#FDB913',      // Dorado/amarillo oficial
-          'gray': '#6B7280',      // Gris para textos
+          'burgundy': '#800020',     // Guindo/Vino principal UNAT
+          'burgundy-dark': '#5D0016', // Guindo oscuro
+          'burgundy-light': '#A0002A', // Guindo claro para hover
+          'gold': '#D4AF37',         // Dorado universitario
+          'cream': '#F5F5DC',        // Crema para fondos
+          'gray': '#6B7280',         // Gris para textos
         },
-        // Paleta principal basada en azul UNAT oficial
+        // Paleta principal - GUINDO/VINO (color institucional UNAT)
         'primary': {
-          50: '#E6F0FF',    // Muy claro
-          100: '#CCE0FF',   // Claro
-          200: '#99C2FF',   // Medio claro
-          300: '#66A3FF',   // Medio
-          400: '#3385FF',   // Medio oscuro
-          500: '#0066CC',   // Base
-          600: '#004E8C',   // Oficial UNAT (principal)
-          700: '#003F7F',   // Oscuro
-          800: '#003366',   // Muy oscuro
-          900: '#002952',   // Ultra oscuro
+          50: '#FFF0F3',    // Rosa muy claro
+          100: '#FFE1E6',   // Rosa claro
+          200: '#FFC3CE',   // Rosa medio
+          300: '#FF9FB5',   // Rosa
+          400: '#E6667F',   // Rojo rosado
+          500: '#B33355',   // Vino medio
+          600: '#800020',   // ⭐ GUINDO OFICIAL UNAT
+          700: '#660019',   // Guindo oscuro
+          800: '#5D0016',   // Muy oscuro
+          900: '#4D0012',   // Ultra oscuro
         },
-        // Paleta secundaria (verde UNAT)
+        // Paleta secundaria (dorado universitario)
         'secondary': {
-          50: '#E6F9F0',
-          100: '#CCF3E1',
-          200: '#99E7C3',
-          300: '#66DBA5',
-          400: '#33CF87',
-          500: '#00A651',   // Verde UNAT oficial
-          600: '#008844',
-          700: '#006A37',
-          800: '#004C2A',
-          900: '#002E1D',
+          50: '#FFFBEB',
+          100: '#FFF7D6',
+          200: '#FFEEAD',
+          300: '#FFE584',
+          400: '#FFDC5B',
+          500: '#D4AF37',   // ⭐ Dorado oficial
+          600: '#B8962E',
+          700: '#9C7D25',
+          800: '#80641C',
+          900: '#644B13',
         },
-        // Acento dorado
+        // Acento crema/beige
         'accent': {
-          50: '#FFF9E6',
-          100: '#FFF3CC',
-          200: '#FFE799',
-          300: '#FFDB66',
-          400: '#FFCF33',
-          500: '#FDB913',   // Dorado oficial
-          600: '#E6A000',
-          700: '#CC8E00',
-          800: '#B37C00',
-          900: '#996A00',
+          50: '#FEFDFB',
+          100: '#FDFCF7',
+          200: '#FBF9EF',
+          300: '#F9F6E7',
+          400: '#F7F3DF',
+          500: '#F5F5DC',   // ⭐ Crema oficial
+          600: '#E8E8C8',
+          700: '#DBDBB4',
+          800: '#CECEA0',
+          900: '#C1C18C',
         },
       },
       fontFamily: {
