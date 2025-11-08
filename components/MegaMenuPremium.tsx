@@ -291,7 +291,7 @@ export default function MegaMenuPremium() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        className={`fixed top-10 left-0 right-0 z-40 transition-all duration-500 ${
           isScrolled
             ? 'bg-white/95 backdrop-blur-xl shadow-2xl border-b border-gray-100'
             : 'bg-white shadow-md'
@@ -566,7 +566,7 @@ export default function MegaMenuPremium() {
       </nav>
 
       {/* Spacer to prevent content from going under fixed navbar */}
-      <div className="h-20" />
+      <div className="h-30" />
     </>
   );
 }

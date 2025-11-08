@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import TopBar from '@/components/TopBar';
 import MegaMenuPremium from '@/components/MegaMenuPremium';
-import HeroStanford from '@/components/HeroStanford';
+import HeroStanfordImage from '@/components/HeroStanfordImage';
 import SearchBar from '@/components/SearchBar';
 import CampusNews from '@/components/CampusNews';
 import AcademicExcellence from '@/components/AcademicExcellence';
@@ -24,11 +25,17 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-white">
+      {/* Top Bar - Estilo Stanford */}
+      <TopBar />
+      
+      {/* Main Menu */}
       <MegaMenuPremium />
+      
+      {/* Search Bar Flotante */}
       <SearchBar />
       
-      {/* Hero Section - Stanford Style */}
-      <HeroStanford />
+      {/* Hero Section - Stanford Style con Imagen Real */}
+      <HeroStanfordImage />
       
       {/* Campus News Grid */}
       <CampusNews />
