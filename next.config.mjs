@@ -9,7 +9,7 @@ const nextConfig = {
       },
     ],
   },
-  output: 'export',
+  // Removed output: 'export' for Vercel deployment
 };
 
 export default nextConfig;
