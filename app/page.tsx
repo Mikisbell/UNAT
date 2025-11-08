@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Navbar from '@/components/Navbar';
+import MegaMenu from '@/components/MegaMenu';
 import Hero from '@/components/Hero';
 import Stats from '@/components/Stats';
 import About from '@/components/About';
