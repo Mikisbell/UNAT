@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import MegaMenu from '@/components/MegaMenu';
+import MegaMenuPremium from '@/components/MegaMenuPremium';
 import HeroStanford from '@/components/HeroStanford';
 import SearchBar from '@/components/SearchBar';
 import CampusNews from '@/components/CampusNews';
@@ -11,7 +11,7 @@ import Autoridades from '@/components/Autoridades';
 import Carreras from '@/components/Carreras';
 import Admision from '@/components/Admision';
 import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
+import FooterStanford from '@/components/FooterStanford';
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-white">
-      <MegaMenu />
+      <MegaMenuPremium />
       <SearchBar />
       
       {/* Hero Section - Stanford Style */}
