@@ -33,9 +33,21 @@ export default function About() {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
+            <div className="bg-gradient-to-br from-primary-50 to-blue-50 p-6 rounded-xl border-l-4 border-primary-600">
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                📜 Historia y Base Legal
+              </h3>
+              <p className="text-gray-700 leading-relaxed text-lg mb-4">
+                La <strong>Universidad Nacional Autónoma de Tayacaja "Daniel Hernández Morillo"</strong> fue establecida mediante la <strong>Ley N° 29716</strong>, promulgada para impulsar la educación superior en la provincia de Tayacaja, Huancavelica.
+              </p>
+              <p className="text-gray-700 leading-relaxed text-lg">
+                La universidad cuenta con una <strong>Comisión Organizadora</strong>, recientemente reconformada por medio de la <strong>Resolución Viceministerial N° 088-2022-MINEDU</strong>, comprometida con el desarrollo de la primera institución universitaria en Tayacaja.
+              </p>
+            </div>
+
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                Nuestra Misión
+                🎯 Nuestra Misión
               </h3>
               <p className="text-gray-700 leading-relaxed text-lg">
                 Formar profesionales competentes, éticos y comprometidos con el
@@ -47,13 +59,13 @@ export default function About() {
 
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                Nuestra Visión
+                🌟 Nuestra Visión
               </h3>
               <p className="text-gray-700 leading-relaxed text-lg">
                 Ser una universidad líder en la formación profesional y desarrollo
                 regional, reconocida por su excelencia académica, investigación
                 científica y vinculación con la comunidad de Tayacaja y
-                Huancavelica.
+                Huancavelica, siendo la primera universidad de la provincia.
               </p>
             </div>
 

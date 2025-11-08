@@ -18,9 +18,11 @@ export default function Navbar() {
   const navLinks = [
     { href: '#inicio', label: 'Inicio' },
     { href: '#nosotros', label: 'Nosotros' },
+    { href: '#autoridades', label: 'Autoridades' },
     { href: '#carreras', label: 'Carreras' },
-    { href: '#admision2025', label: 'Admisión 2025' },
+    { href: '#admision', label: 'Admisión' },
     { href: '#cronograma', label: 'Cronograma' },
+    { href: '#documentos', label: 'Documentos' },
     { href: '#contacto', label: 'Contacto' },
   ];
 

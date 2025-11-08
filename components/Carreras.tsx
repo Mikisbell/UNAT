@@ -120,7 +120,7 @@ export default function Carreras() {
                 </li>
               </ul>
               <a
-                href="#admision2025"
+                href="#admision"
                 className="inline-flex items-center text-primary-600 font-semibold hover:text-primary-700 transition-colors group"
               >
                 Postular ahora

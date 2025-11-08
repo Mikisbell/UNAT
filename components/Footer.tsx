@@ -30,6 +30,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="#autoridades"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Autoridades
+                </a>
+              </li>
+              <li>
+                <a
                   href="#carreras"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
@@ -38,7 +46,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#admision2025"
+                  href="#admision"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Admisión 2025
@@ -50,6 +58,14 @@ export default function Footer() {
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Cronograma
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#documentos"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Documentos
                 </a>
               </li>
               <li>

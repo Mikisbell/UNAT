@@ -32,7 +32,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-scale-in">
           <a
-            href="#admision2025"
+            href="#admision"
             className="px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-xl"
           >
             Proceso de Admisión 2025
