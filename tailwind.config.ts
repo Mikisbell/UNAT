@@ -9,26 +9,54 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Colores principales UNAT
+        // Colores oficiales UNAT (extraídos de admision.unat.edu.pe)
         'unat': {
-          'blue': '#1e40af',      // Azul institucional principal
-          'navy': '#0f172a',      // Azul oscuro/navy
-          'cyan': '#06b6d4',      // Cyan/turquesa para acentos
-          'green': '#10b981',     // Verde para éxito
-          'gold': '#f59e0b',      // Dorado para destacados
+          'blue': '#004E8C',      // Azul marino institucional principal
+          'blue-dark': '#003366', // Azul marino oscuro
+          'blue-light': '#0066CC', // Azul claro para hover
+          'green': '#00A651',     // Verde UNAT oficial
+          'green-dark': '#008844', // Verde oscuro
+          'gold': '#FDB913',      // Dorado/amarillo oficial
+          'gray': '#6B7280',      // Gris para textos
         },
-        // Tonalidades de azul (color principal UNAT)
+        // Paleta principal basada en azul UNAT oficial
         'primary': {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',  // Color principal
-          700: '#1e40af',
-          800: '#1e3a8a',
-          900: '#1e293b',
+          50: '#E6F0FF',    // Muy claro
+          100: '#CCE0FF',   // Claro
+          200: '#99C2FF',   // Medio claro
+          300: '#66A3FF',   // Medio
+          400: '#3385FF',   // Medio oscuro
+          500: '#0066CC',   // Base
+          600: '#004E8C',   // Oficial UNAT (principal)
+          700: '#003F7F',   // Oscuro
+          800: '#003366',   // Muy oscuro
+          900: '#002952',   // Ultra oscuro
+        },
+        // Paleta secundaria (verde UNAT)
+        'secondary': {
+          50: '#E6F9F0',
+          100: '#CCF3E1',
+          200: '#99E7C3',
+          300: '#66DBA5',
+          400: '#33CF87',
+          500: '#00A651',   // Verde UNAT oficial
+          600: '#008844',
+          700: '#006A37',
+          800: '#004C2A',
+          900: '#002E1D',
+        },
+        // Acento dorado
+        'accent': {
+          50: '#FFF9E6',
+          100: '#FFF3CC',
+          200: '#FFE799',
+          300: '#FFDB66',
+          400: '#FFCF33',
+          500: '#FDB913',   // Dorado oficial
+          600: '#E6A000',
+          700: '#CC8E00',
+          800: '#B37C00',
+          900: '#996A00',
         },
       },
       fontFamily: {
