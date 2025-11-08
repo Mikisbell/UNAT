@@ -1,12 +1,22 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <h4 className="text-xl font-bold mb-4">UNAT</h4>
+            <div className="mb-4">
+              <Image
+                src="/images/logos/logo.png"
+                alt="Logo UNAT"
+                width={150}
+                height={50}
+                className="h-12 w-auto object-contain brightness-0 invert"
+              />
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Universidad Nacional Autónoma de Tayacaja &quot;Daniel Hernández
               Morillo&quot; - Formando profesionales comprometidos con el
