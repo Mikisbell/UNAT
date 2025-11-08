@@ -3,7 +3,10 @@
 import { useState, useEffect } from 'react';
 import TopBar from '@/components/TopBar';
 import MegaMenuPremium from '@/components/MegaMenuPremium';
-import HeroStanfordImage from '@/components/HeroStanfordImage';
+import AdmisionBanner from '@/components/AdmisionBanner';
+import HeroAdmision from '@/components/HeroAdmision';
+import ComoPostular from '@/components/ComoPostular';
+import WhatsAppWidget from '@/components/WhatsAppWidget';
 import SearchBar from '@/components/SearchBar';
 import CampusNews from '@/components/CampusNews';
 import AcademicExcellence from '@/components/AcademicExcellence';
@@ -31,11 +34,20 @@ export default function Home() {
       {/* Main Menu */}
       <MegaMenuPremium />
       
+      {/* Banner de Admisión Sticky */}
+      <AdmisionBanner />
+      
       {/* Search Bar Flotante */}
       <SearchBar />
       
-      {/* Hero Section - Stanford Style con Imagen Real */}
-      <HeroStanfordImage />
+      {/* WhatsApp Widget Flotante */}
+      <WhatsAppWidget />
+      
+      {/* Hero Section - Enfocado en Admisión */}
+      <HeroAdmision />
+      
+      {/* Cómo Postular - Proceso Paso a Paso */}
+      <ComoPostular />
       
       {/* Campus News Grid */}
       <CampusNews />
