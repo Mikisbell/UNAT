@@ -121,7 +121,7 @@ export default function Footer() {
 
         {/* Logo and Info Section */}
         <div className="py-12 border-b border-gray-800">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <div className="mb-6">
                 <Image

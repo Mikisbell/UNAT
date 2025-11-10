@@ -38,7 +38,7 @@ export default function About() {
                 📜 Historia y Base Legal
               </h3>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                La <strong>Universidad Nacional Autónoma de Tayacaja "Daniel Hernández Morillo"</strong> fue establecida mediante la <strong>Ley N° 29716</strong>, promulgada para impulsar la educación superior en la provincia de Tayacaja, Huancavelica.
+                La <strong>Universidad Nacional Autónoma de Tayacaja &quot;Daniel Hernández Morillo&quot;</strong> fue establecida mediante la <strong>Ley N° 29716</strong>, promulgada para impulsar la educación superior en la provincia de Tayacaja, Huancavelica.
               </p>
               <p className="text-gray-700 leading-relaxed text-lg">
                 La universidad cuenta con una <strong>Comisión Organizadora</strong>, recientemente reconformada por medio de la <strong>Resolución Viceministerial N° 088-2022-MINEDU</strong>, comprometida con el desarrollo de la primera institución universitaria en Tayacaja.
