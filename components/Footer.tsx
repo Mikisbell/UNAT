@@ -284,6 +284,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+          </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
