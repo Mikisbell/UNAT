@@ -32,7 +32,7 @@ export default function AdmisionBanner() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [examDate]);
 
   if (!isVisible) return null;
 

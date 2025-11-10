@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function About() {
   const features = [
     {
@@ -88,9 +90,10 @@ export default function About() {
           </div>
 
           <div className="relative h-96 lg:h-full rounded-2xl overflow-hidden shadow-2xl">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800"
               alt="Campus UNAT"
+              fill
               className="w-full h-full object-cover"
             />
           </div>

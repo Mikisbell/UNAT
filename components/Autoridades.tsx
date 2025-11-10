@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import Image from 'next/image';
 
 // TypeScript Interface
 interface Autoridad {
@@ -283,11 +284,12 @@ export default function Autoridades() {
             <div className="bg-gradient-to-r from-primary-600 to-primary-700 p-8 text-white rounded-t-2xl">
               <div className="flex items-start justify-between">
                 <div className="flex items-center space-x-4">
-                  <div className="w-20 h-20 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center ring-4 ring-white/30 overflow-hidden">
+                  <div className="w-20 h-20 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center ring-4 ring-white/30 overflow-hidden relative">
                     {selectedAutoridad.foto ? (
-                      <img 
+                      <Image 
                         src={selectedAutoridad.foto} 
                         alt={selectedAutoridad.nombre}
+                        fill
                         className="w-full h-full object-cover"
                       />
                     ) : (
