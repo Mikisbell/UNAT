@@ -151,12 +151,13 @@ export default function Autoridades() {
                 <motion.div
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   transition={{ type: 'spring', stiffness: 300 }}
-                  className="w-24 h-24 bg-gradient-to-br from-primary-100 to-primary-200 rounded-full flex items-center justify-center mx-auto mb-4 ring-4 ring-primary-100 overflow-hidden"
+                  className="w-24 h-24 bg-gradient-to-br from-primary-100 to-primary-200 rounded-full flex items-center justify-center mx-auto mb-4 ring-4 ring-primary-100 overflow-hidden relative"
                 >
                   {autoridad.foto ? (
-                    <img 
+                    <Image 
                       src={autoridad.foto} 
                       alt={autoridad.nombre}
+                      fill
                       className="w-full h-full object-cover"
                     />
                   ) : (
