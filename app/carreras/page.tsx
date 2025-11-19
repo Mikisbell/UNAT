@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import TopBar from '@/components/TopBar';
-import MegaMenuPremium from '@/components/MegaMenuPremium';
+import MegaMenuModerno from '@/components/MegaMenuModerno';
+import PageHero from '@/components/PageHero';
 import Carreras from '@/components/Carreras';
 import WhatsAppWidget from '@/components/WhatsAppWidget';
 import FooterStanford from '@/components/FooterStanford';
@@ -14,72 +14,67 @@ export const metadata: Metadata = {
 
 export default function CarrerasPage() {
   return (
-    <main className="min-h-screen bg-white">
-      <TopBar />
-      <MegaMenuPremium />
+    <main className="min-h-screen bg-white m-0 p-0">
+      <MegaMenuModerno />
       <WhatsAppWidget />
       
-      {/* Hero */}
-      <section className="relative bg-gradient-to-br from-secondary-500 via-secondary-600 to-secondary-700 text-primary-900 py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Carreras Profesionales
-          </h1>
-          <p className="text-2xl md:text-3xl max-w-4xl mx-auto">
-            Descubre tu futuro profesional en UNAT
-          </p>
-          <p className="text-xl mt-6 max-w-3xl mx-auto opacity-90">
-            Formación de calidad, gratuita y con proyección nacional
-          </p>
-        </div>
-      </section>
+      <PageHero 
+        title="Carreras Profesionales"
+        description="5 carreras acreditadas con proyección al desarrollo regional y nacional"
+        imagePath="/images/campus/hero-background.jpg"
+        imageAlt="Carreras UNAT"
+      />
       
       {/* Carreras Grid */}
       <Carreras />
       
       {/* Por qué estudiar en UNAT */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            ¿Por qué estudiar en UNAT?
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="text-center mb-16">
+            <div className="inline-block bg-white border border-gray-200 px-6 py-2 rounded-full text-sm font-bold mb-6 text-gray-700">
+              BENEFICIOS
+            </div>
+            <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-tight">
+              ¿Por qué estudiar en UNAT?
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Una educación de calidad con impacto regional
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                icon: '🎓',
                 title: 'Educación Gratuita',
                 desc: 'Universidad pública 100% gratuita con educación de calidad',
               },
               {
-                icon: '👨‍🏫',
                 title: 'Docentes Calificados',
                 desc: 'Profesionales con amplia experiencia y formación continua',
               },
               {
-                icon: '🏢',
                 title: 'Infraestructura Moderna',
                 desc: 'Laboratorios, bibliotecas y espacios equipados',
               },
               {
-                icon: '💼',
                 title: 'Alta Empleabilidad',
-                desc: 'Nuestros egresados tienen 90% de inserción laboral',
+                desc: 'Nuestros egresados tienen 95% de inserción laboral',
               },
               {
-                icon: '🔬',
                 title: 'Investigación',
                 desc: 'Participación en proyectos de investigación e innovación',
               },
               {
-                icon: '🌍',
                 title: 'Impacto Regional',
                 desc: 'Contribución al desarrollo de Tayacaja y Huancavelica',
               },
             ].map((item, idx) => (
-              <div key={idx} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-5xl mb-4">{item.icon}</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                <p className="text-gray-600">{item.desc}</p>
+              <div key={idx} className="bg-white border-2 border-gray-100 p-10 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 group cursor-pointer">
+                <div className="w-16 h-16 bg-primary-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary-100 transition-colors">
+                  <div className="w-3 h-3 bg-primary-600 rounded-full"></div>
+                </div>
+                <h3 className="text-2xl font-black text-gray-900 mb-4 leading-tight">{item.title}</h3>
+                <p className="text-base text-gray-600 leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -87,18 +82,26 @@ export default function CarrerasPage() {
       </section>
       
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-br from-primary-600 to-primary-900 text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+      <section className="py-24 bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white relative overflow-hidden">
+        {/* Patrón de fondo */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+            backgroundSize: '30px 30px'
+          }} />
+        </div>
+        
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
             ¿Listo para empezar tu futuro?
           </h2>
-          <p className="text-xl mb-8 text-primary-100">
+          <p className="text-2xl mb-12 text-primary-100 max-w-3xl mx-auto leading-relaxed">
             Postula ahora a la Universidad Nacional Autónoma de Tayacaja
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/admision"
-              className="bg-secondary-500 text-primary-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-secondary-400 transition-colors"
+              className="inline-flex items-center justify-center px-10 py-5 bg-secondary-500 text-primary-900 rounded-2xl font-black text-lg hover:bg-secondary-400 transition-all shadow-2xl transform hover:scale-105"
             >
               Proceso de Admisión
             </Link>
@@ -106,7 +109,7 @@ export default function CarrerasPage() {
               href="https://admision.unat.edu.pe/2/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-primary-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors"
+              className="inline-flex items-center justify-center px-10 py-5 bg-white text-primary-600 rounded-2xl font-bold text-lg hover:bg-gray-50 transition-all shadow-2xl transform hover:scale-105"
             >
               Inscríbete Ahora
             </a>

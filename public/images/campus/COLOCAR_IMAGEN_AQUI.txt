@@ -1,0 +1,17 @@
+📸 IMAGEN DEL CAMPUS UNAT
+====================================
+
+NOMBRE DEL ARCHIVO: hero-background.jpg
+
+ESPECIFICACIONES:
+- Formato: JPG o WebP
+- Resolución mínima: 1920x1080px
+- Tamaño máximo: 500KB (optimizada)
+- Orientación: Horizontal (landscape)
+
+Una vez que coloques la imagen aquí, ve a:
+components/HeroWithMenu.tsx
+
+Y descomenta las líneas de la imagen (línea ~14-21)
+
+¡El efecto Stanford se activará automáticamente!

@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
-import TopBar from '@/components/TopBar';
-import MegaMenuPremium from '@/components/MegaMenuPremium';
+import MegaMenuModerno from '@/components/MegaMenuModerno';
+import PageHero from '@/components/PageHero';
 import Autoridades from '@/components/Autoridades';
 import WhatsAppWidget from '@/components/WhatsAppWidget';
 import FooterStanford from '@/components/FooterStanford';
@@ -13,25 +13,16 @@ export const metadata: Metadata = {
 
 export default function NosotrosPage() {
   return (
-    <main className="min-h-screen bg-white">
-      <TopBar />
-      <MegaMenuPremium />
+    <main className="min-h-screen bg-white m-0 p-0">
+      <MegaMenuModerno />
       <WhatsAppWidget />
       
-      {/* Hero */}
-      <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 text-white py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Universidad Nacional Autónoma de Tayacaja
-          </h1>
-          <p className="text-2xl md:text-3xl text-primary-100 max-w-4xl mx-auto">
-            &quot;Daniel Hernández Morillo&quot;
-          </p>
-          <p className="text-xl text-primary-200 mt-6 max-w-3xl mx-auto">
-            Formando profesionales competentes para el desarrollo de Tayacaja y el Perú
-          </p>
-        </div>
-      </section>
+      <PageHero 
+        title="Acerca de UNAT"
+        description="Universidad Nacional Autónoma de Tayacaja 'Daniel Hernández Morillo'"
+        imagePath="/images/campus/hero-background.jpg"
+        imageAlt="Campus UNAT"
+      />
       
       {/* Historia */}
       <section className="py-20 bg-white">

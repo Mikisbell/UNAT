@@ -126,11 +126,11 @@ export default function FooterStanford() {
             <div>
               <div className="mb-6">
                 <Image
-                  src="/images/logos/logo.png"
+                  src="/images/logos/logo-blanco.png"
                   alt="Logo UNAT"
-                  width={200}
-                  height={67}
-                  className="h-16 w-auto object-contain brightness-0 invert"
+                  width={400}
+                  height={134}
+                  className="h-32 w-auto object-contain"
                 />
               </div>
               <p className="text-gray-400 text-sm leading-relaxed max-w-md mb-4">

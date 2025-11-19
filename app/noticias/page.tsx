@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
-import TopBar from '@/components/TopBar';
-import MegaMenuPremium from '@/components/MegaMenuPremium';
+import MegaMenuModerno from '@/components/MegaMenuModerno';
+import PageHero from '@/components/PageHero';
 import CampusNews from '@/components/CampusNews';
 import WhatsAppWidget from '@/components/WhatsAppWidget';
 import FooterStanford from '@/components/FooterStanford';
@@ -13,22 +13,16 @@ export const metadata: Metadata = {
 
 export default function NoticiasPage() {
   return (
-    <main className="min-h-screen bg-white">
-      <TopBar />
-      <MegaMenuPremium />
+    <main className="min-h-screen bg-white m-0 p-0">
+      <MegaMenuModerno />
       <WhatsAppWidget />
       
-      {/* Hero */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Noticias y Eventos
-          </h1>
-          <p className="text-2xl md:text-3xl text-blue-100 max-w-4xl mx-auto">
-            Mantente informado sobre todo lo que sucede en UNAT
-          </p>
-        </div>
-      </section>
+      <PageHero 
+        title="Noticias y Eventos"
+        description="Mantente informado sobre las últimas actividades y logros de nuestra comunidad universitaria"
+        imagePath="/images/campus/hero-background.jpg"
+        imageAlt="Noticias UNAT"
+      />
       
       {/* Noticias Grid */}
       <CampusNews />

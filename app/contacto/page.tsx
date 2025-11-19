@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
-import TopBar from '@/components/TopBar';
-import MegaMenuPremium from '@/components/MegaMenuPremium';
+import MegaMenuModerno from '@/components/MegaMenuModerno';
+import PageHero from '@/components/PageHero';
 import Contact from '@/components/Contact';
 import WhatsAppWidget from '@/components/WhatsAppWidget';
 import FooterStanford from '@/components/FooterStanford';
@@ -12,10 +12,17 @@ export const metadata: Metadata = {
 
 export default function ContactoPage() {
   return (
-    <main className="min-h-screen bg-white">
-      <TopBar />
-      <MegaMenuPremium />
+    <main className="min-h-screen bg-white m-0 p-0">
+      <MegaMenuModerno />
       <WhatsAppWidget />
+      
+      <PageHero 
+        title="Contáctanos"
+        description="Estamos aquí para atender tus consultas y brindarte información"
+        imagePath="/images/campus/hero-background.jpg"
+        imageAlt="Contacto UNAT"
+      />
+      
       <Contact />
       <FooterStanford />
     </main>
